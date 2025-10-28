@@ -1,7 +1,8 @@
 <?php
 date_default_timezone_set("Asia/Kolkata");
-echo "Now The Time is ".date("H:i:sa")."<br>";
+echo " Time is ".date("H:i:sa")."<br>";
 $t=date("H");
+
 if($t > "5" && $t < "12"){
 echo "Have a Good Morning!";
 }
