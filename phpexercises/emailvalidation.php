@@ -1,5 +1,5 @@
 <?php
-$email = "example@example.com";
+$email = "exampleexame.com";
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
     echo("$email is a valid email address");
 } else {
