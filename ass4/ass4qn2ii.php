@@ -1,8 +1,8 @@
 <?php
-$i = 15;
+$i = 0;
 echo "Using while loop: ";
-while ($i >= 0) {
+while ($i <= 20) {
     echo $i . " ";
-    $i--;
+    $i++;
 }
 ?>
